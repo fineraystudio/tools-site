@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
-// Project page lives at https://faridrameli.github.io/tools-site/
-const SITE_URL = "https://faridrameli.github.io/tools-site";
+// Project page lives at https://fineraystudio.github.io/tools-site/
+const SITE_URL = "https://fineraystudio.github.io/tools-site";
 const PAGE_URL = `${SITE_URL}/pengurus-bayaran/`;
 const OG_IMAGE = `${SITE_URL}/pengurus-bayaran/og-card.png`;
 const TITLE = "Pengurus Bayaran — Rekod Bil Bulanan & Kalkulator Zakat";

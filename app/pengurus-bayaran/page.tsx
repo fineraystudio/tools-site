@@ -21,7 +21,7 @@ import zakatShot from "./images/03-kalkulator-zakat.png";
 
 // The app is its own installable PWA, deployed from autobots-lab/pengurus-bayaran.
 // TODO(launch): confirm this URL once the app's GitHub Pages site is live.
-const APP_URL = "https://faridrameli.github.io/pengurus-bayaran/";
+const APP_URL = "https://fineraystudio.github.io/pengurus-bayaran/";
 
 const TRANSLATIONS = {
   ms: {
