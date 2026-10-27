@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { QrCode, FileText, Image } from "lucide-react";
+import { QrCode, FileText, Image, Wallet } from "lucide-react";
 
 const TRANSLATIONS = {
   en: {
@@ -31,6 +31,11 @@ const TRANSLATIONS = {
         name: "Image Compressor",
         desc: "Reduce image file size while keeping quality",
         href: "/image-compressor",
+      },
+      {
+        name: "Pengurus Bayaran",
+        desc: "Malay monthly payment tracker with a Zakat calculator and Hijri calendar",
+        href: "/pengurus-bayaran",
       },
     ],
   },
@@ -61,6 +66,11 @@ const TRANSLATIONS = {
         desc: "Kurangkan saiz fail gambar sambil mengekalkan kualiti",
         href: "/image-compressor",
       },
+      {
+        name: "Pengurus Bayaran",
+        desc: "Rekod bil bulanan dalam Bahasa Melayu, dengan kalkulator zakat dan kalendar Hijrah",
+        href: "/pengurus-bayaran",
+      },
     ],
   },
 };
@@ -69,7 +79,7 @@ export default function Home() {
   const [lang, setLang] = useState<"en" | "ms">("en");
   const t = TRANSLATIONS[lang];
 
-  const icons = [QrCode, FileText, Image];
+  const icons = [QrCode, FileText, Image, Wallet];
 
   return (
     <div className="min-h-screen bg-bg">
@@ -104,7 +114,7 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {t.tools.map((tool, i) => {
             const Icon = icons[i];
             return (

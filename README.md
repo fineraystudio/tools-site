@@ -22,7 +22,16 @@ A collection of standalone web tools with English and Malay (Bahasa Melayu) lang
    - Real-time conversion
    - Malay: "Penukar Unit"
 
-4. **Privacy Policy** (`/privacy`)
+4. **Image Compressor** (`/image-compressor`)
+   - Reduce image file size in the browser while keeping quality
+   - Malay: "Kompres Gambar"
+
+5. **Pengurus Bayaran** (`/pengurus-bayaran`)
+   - Listing page for the Malay monthly payment tracker (a separate PWA)
+   - Screenshots, features, FAQ, Zakat and Hijri highlights, privacy link
+   - Malay-first copy with an English toggle; "Open the app" links to the PWA
+
+6. **Privacy Policy** (`/privacy`)
    - Bilingual privacy information
    - Explains client-side processing
 
