@@ -51,7 +51,7 @@ const TRANSLATIONS = {
       },
       {
         title: "Kalkulator Zakat",
-        desc: "Kira zakat 2.5% ke atas simpanan yang melebihi nisab RM 15,000, dengan penerangan ringkas.",
+        desc: "Kira zakat 2.5% daripada jumlah simpanan apabila ia mencapai nisab RM 15,000, dengan penerangan ringkas.",
       },
       {
         title: "Kalendar Hijrah",
@@ -106,7 +106,7 @@ const TRANSLATIONS = {
       },
       {
         q: "Bagaimana zakat dikira?",
-        a: "Zakat dikira 2.5% daripada simpanan yang telah melebihi nisab RM 15,000. Ia kalkulator mudah untuk anggaran; rujuk pihak berkuasa agama untuk pengiraan yang tepat.",
+        a: "Zakat dikira 2.5% daripada jumlah simpanan apabila ia mencapai nisab RM 15,000 (nisab ialah ambang, bukan jumlah yang ditolak). Ia kalkulator anggaran; rujuk pihak berkuasa agama untuk pengiraan yang tepat.",
       },
       {
         q: "Boleh dipasang di telefon?",
@@ -149,7 +149,7 @@ const TRANSLATIONS = {
       },
       {
         title: "Zakat calculator",
-        desc: "Work out 2.5% Zakat on savings above the RM 15,000 nisab, with a short explanation.",
+        desc: "Work out 2.5% Zakat on total savings once they reach the RM 15,000 nisab, with a short explanation.",
       },
       {
         title: "Hijri calendar",
@@ -204,7 +204,7 @@ const TRANSLATIONS = {
       },
       {
         q: "How is Zakat calculated?",
-        a: "Zakat is 2.5% of savings above the RM 15,000 nisab. It is a simple estimator; consult the religious authorities for an exact calculation.",
+        a: "Zakat is 2.5% of your total savings once they reach the RM 15,000 nisab (nisab is a threshold, not an amount deducted). It is a simple estimator; consult the religious authorities for an exact calculation.",
       },
       {
         q: "Can I install it on my phone?",
